@@ -1,5 +1,5 @@
 
-LOCAL_PATH := device/xiaomi/laurel_sprout
+LOCAL_PATH := device/vivo/PD1928BF_EX
 
 # define hardware platform
 PRODUCT_PLATFORM := trinket
