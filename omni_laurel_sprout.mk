@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := laurel_sprout
+PRODUCT_RELEASE_NAME := PD1928BF_EX
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, build/target/product/embedded.mk)
@@ -24,18 +24,18 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from laurel_sprout device
-$(call inherit-product, device/xiaomi/laurel_sprout/device.mk)
+$(call inherit-product, device/vivo/PD1928BF_EX/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := laurel_sprout
-PRODUCT_NAME := omni_laurel_sprout
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi A3
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_DEVICE := PD1928BF_EX
+PRODUCT_NAME := omni_PD1928BF_EX
+PRODUCT_BRAND := vivo
+PRODUCT_MODEL := vivo 1916
+PRODUCT_MANUFACTURER := vivo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="laurel_sprout" \
-    TARGET_DEVICE="laurel_sprout"
+    PRODUCT_NAME="PD1928BF_EX" \
+    TARGET_DEVICE="PD1928BF_EX"
 
 BUILD_FINGERPRINT := "Xiaomi/laurel_sprout/laurel_sprout:9/PKQ1.190416.001/V10.3.4.0.PFQMIXM:user/release-keys"
 BUILD_NUMBER := "V10.3.4.0.PFQMIXM"
