@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/vivo/PD1928BF_EX
+DEVICE_PATH := device/vivo/1916_EX
 
 # Architecture
 TARGET_ARCH := arm64
@@ -57,8 +57,8 @@ BOARD_KERNEL_CMDLINE += skip_override androidboot.fastboot=1
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET := 0x01000000
-TARGET_PREBUILT_KERNEL := device/vivo/PD1928BF_EX/prebuilt/zImage
-BOARD_PREBUILT_DTBOIMAGE := device/vivo/PD1928BF_EX/prebuilt/dtbo.img
+TARGET_PREBUILT_KERNEL := device/vivo/1916/prebuilt/zImage
+BOARD_PREBUILT_DTBOIMAGE := device/vivo/1916/prebuilt/dtbo.img
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_BOOTIMG_HEADER_VERSION := 1
@@ -126,7 +126,7 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TW_HAS_EDL_MODE := true
 USE_RECOVERY_INSTALLER := true
-RECOVERY_INSTALLER_PATH := device/vivo/PD1928BF_EX/installer
+RECOVERY_INSTALLER_PATH := device/vivo/1916/installer
 TW_INCLUDE_REPACKTOOLS := true
 TW_USE_TOOLBOX := true
 
