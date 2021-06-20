@@ -25,7 +25,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),PD1928BF_EX)
+ifeq ($(TARGET_DEVICE),1916)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
