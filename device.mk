@@ -1,5 +1,5 @@
 
-LOCAL_PATH := device/vivo/PD1928BF_EX
+LOCAL_PATH := device/vivo/1916
 
 # define hardware platform
 PRODUCT_PLATFORM := trinket
