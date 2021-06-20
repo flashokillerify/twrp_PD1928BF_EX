@@ -30,7 +30,7 @@ $(call inherit-product, device/vivo/1916/device.mk)
 PRODUCT_DEVICE := 1916
 PRODUCT_NAME := omni_1916
 PRODUCT_BRAND := vivo
-PRODUCT_MODEL := vivo 1916
+PRODUCT_MODEL := Vivo vivo 1916
 PRODUCT_MANUFACTURER := vivo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
