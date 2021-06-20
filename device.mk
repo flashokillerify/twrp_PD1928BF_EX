@@ -5,7 +5,7 @@ LOCAL_PATH := device/vivo/1916
 PRODUCT_PLATFORM := trinket
 
 # A/B updater
-AB_OTA_UPDATER := true
+AB_OTA_UPDATER := false
 
 PRODUCT_PACKAGES += \
     update_engine \
