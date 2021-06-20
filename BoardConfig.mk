@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/vivo/1916_EX
+DEVICE_PATH := device/vivo/1916
 
 # Architecture
 TARGET_ARCH := arm64
